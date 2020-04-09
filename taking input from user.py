@@ -1,7 +1,9 @@
+#taking user information
 name=input("enter your name: ")
 age=input("enter your age: ")
 print("hello "+name+" your age is "+age)
 print("a simple calculator")
+#creating a function for add,sub,multiply and division.
 def addition (num2,num3):
     num2=input("enter a number: ")
     num3=input("enter the 2nd number: ")
@@ -28,6 +30,7 @@ print("1.add")
 print("2.subtract")
 print("3.multiply")
 print("4.divide")
+#calling of function
 if number=='1':
     print(addition(num2,num3))
 elif number=='2':
