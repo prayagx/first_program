@@ -1,7 +1,11 @@
 name=input("enter your name: ")
+
 age=input("enter your age: ")
+
 print("hello "+name+" your age is "+age)
+
 print("a simple calculator")
+
 num2=input("enter a number: ")
 num3=input("enter the 2nd number: ")
 def addition (num2,num3):
